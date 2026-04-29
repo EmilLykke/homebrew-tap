@@ -14,8 +14,11 @@ cask "codictate" do
   app "Codictate.app"
 
   zap trash: [
-    "~/Library/Application Support/Codictate",
+    "~/Library/Application Support/app.codictate",
+    "~/Library/Application Support/codictate",
+    "~/Library/Caches/CodictateParakeetHelper",
+    "~/Library/HTTPStorages/CodictateParakeetHelper",
     "~/Library/Preferences/app.codictate.plist",
-    "~/Library/Caches/Codictate",
+    "~/Library/WebKit/app.codictate",
   ]
 end
