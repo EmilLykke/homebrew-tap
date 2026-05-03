@@ -1,6 +1,6 @@
 cask "codictate" do
-  version "0.0.36"
-  sha256 "82ff3d2b5767007abd1fa502399335a4b6378798178fc0f234fde756d96848c9"
+  version "0.0.39"
+  sha256 "e93a257f5f2a3f32a1b02944df0f3d5b80ac3ea5c140a740edc0ac20ed50f934"
 
   url "https://github.com/EmilLykke/codictate/releases/download/v#{version}/stable-macos-arm64-Codictate.dmg",
       verified: "github.com/EmilLykke/codictate/"
